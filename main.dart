@@ -106,7 +106,7 @@ class MainApp extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
 
-                           Text('7654 455 8888',style: TextStyle(fontWeight: FontWeight.bold , fontSize: 20),),
+                           Text('my sis',style: TextStyle(fontWeight: FontWeight.bold , fontSize: 20),),
                            SizedBox(height: 8,),
                            Text('next time',style: TextStyle( color: Colors.grey),),
                           
@@ -150,7 +150,7 @@ class MainApp extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
 
-                           Text('7654 455 8888',style: TextStyle(fontWeight: FontWeight.bold , fontSize: 20),),
+                           Text('raghad',style: TextStyle(fontWeight: FontWeight.bold , fontSize: 20),),
                            SizedBox(height: 8,),
                            Text('see u',style: TextStyle( color: Colors.grey),),
                           
@@ -210,7 +210,7 @@ class MainApp extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
 
-                          Text('7654 455 8888',style: TextStyle(fontWeight: FontWeight.bold , fontSize: 20),),
+                          Text('haifa',style: TextStyle(fontWeight: FontWeight.bold , fontSize: 20),),
                            SizedBox(height: 8,),
 
 
@@ -261,7 +261,7 @@ class MainApp extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
 
-                          Text('7654 455 8888',style: TextStyle(fontWeight: FontWeight.bold , fontSize: 20),),
+                          Text('nahar',style: TextStyle(fontWeight: FontWeight.bold , fontSize: 20),),
                            SizedBox(height: 8,),
                           Text('okay',style: TextStyle( color: Colors.grey),),
                           
@@ -311,7 +311,7 @@ class MainApp extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
 
-                           Text('7654 455 8888',style: TextStyle(fontWeight: FontWeight.bold , fontSize: 20),),
+                           Text('mum',style: TextStyle(fontWeight: FontWeight.bold , fontSize: 20),),
                            SizedBox(height: 8,),
                            Text('where are u ?',style: TextStyle( color: Colors.grey),),
                           
@@ -352,7 +352,7 @@ class MainApp extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
 
-                          Text('7654 455 8888',style: TextStyle(fontWeight: FontWeight.bold , fontSize: 20),),
+                          Text('bro',style: TextStyle(fontWeight: FontWeight.bold , fontSize: 20),),
                            SizedBox(height: 8,),
                           Text('hello',style: TextStyle( color: Colors.grey),),
                           
