@@ -19,11 +19,12 @@ class MainApp extends StatelessWidget {
           preferredSize: const Size.fromHeight(140.0),
           child: AppBar(
             automaticallyImplyLeading: false,
+            elevation: 0,
             backgroundColor: Colors.white70,
             title: Column(
               children: [
                 Container(
-                  padding: const EdgeInsets.only(top: 20),
+                  padding: const EdgeInsets.only(top: 40),
                   child: Row(
                     children: [
                       const Icon(
@@ -48,71 +49,27 @@ class MainApp extends StatelessWidget {
                     ],
                   ),
                 ),
-                const Column(
+                Column(
                   children: [
-                    SizedBox(
-                      height: 50,
-                      child: TextField(
-                        style: TextStyle(color: Colors.white70),
-                        decoration: InputDecoration(
-                          prefixIcon: Icon(Icons.search),
-                          suffixIcon: Icon(Icons.mic),
-                          hintText: 'Search here...',
-                          hintStyle: TextStyle(color: Colors.grey),
-                          border: InputBorder.none,
+                    TextField(
+                      style: const TextStyle(color: Colors.white70),
+                      decoration: InputDecoration(
+                        prefixIcon: Icon(Icons.search, color: Colors.teal.shade600,),
+                        suffixIcon: Icon(Icons.mic,color: Colors.grey.shade300,),
+                        enabledBorder: OutlineInputBorder(
+                          borderSide: BorderSide(
+                              width: 1, color: Colors.grey.shade300),
+                          borderRadius: BorderRadius.circular(40),
                         ),
+                        hintText: 'Search here...',
+                        hintStyle: TextStyle(color: Colors.grey.shade300),
+                        border: InputBorder.none,
                       ),
                     ),
                   ],
                 ),
               ],
             ),
-
-            // backgroundColor: Colors.grey.shade50,
-            // elevation: 1,
-            // leading: SafeArea(
-            //   child: IconButton(
-            //     icon: const Icon(Icons.arrow_back),
-            //     color: Colors.black87,
-            //     onPressed: () {},
-            //   ),
-            // ),
-            // titleSpacing: -3.0,
-            // centerTitle: false,
-            // title: const Text(
-            //   "Chat",
-            //   style: TextStyle(
-            //     color: Colors.black87,
-            //     fontWeight: FontWeight.w700,
-            //   ),
-            // ),
-            // actions: [
-            //   IconButton(
-            //     icon: Image.asset('assets/images/Icons/edit-24px.png'),
-            //     onPressed: () {},
-            //   ),
-            //   const SizedBox(height: 12,),
-            //   const TextField(
-            //     style: TextStyle(color: Colors.white70),
-            //     decoration: InputDecoration(
-            //       hintText: 'Search',
-            //       hintStyle: TextStyle(color: Colors.white54),
-            //       border: InputBorder.none,
-            //     ),
-            //   ),
-            // ],
-
-            // const SafeArea(child:
-            // Column(children: [
-            //     const Icon(
-            //       Icons.arrow_back,
-            //       color: Colors.black87,
-            //     ),
-            //   const Text(
-            //     'Chat',
-            //     style: TextStyle(decorationThickness: 2),
-            //     selectionColor: Colors.black87,
-            //   ),
           ),
         ),
         body: const SafeArea(
